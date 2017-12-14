@@ -5,11 +5,6 @@
 .post {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-
-	// Reset post text color back to our proper text color, as the entire post is contained within an anchor tag.
-	a, a:visited {
-		color: $color_text;
-	}
 }
 
 .post-card {
