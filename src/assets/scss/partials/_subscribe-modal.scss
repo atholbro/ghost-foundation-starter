@@ -1,24 +1,53 @@
-.subscribe-overlay {
+@import "../color";
+@import "../common";
 
-}
+#subscribe {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: $color_text_alt;
 
-.subscribe-overlay-close {
+	& > div {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: $content-padding;
 
-}
+		.content {
+			max-width: 40rem;
+			text-align: center;
 
+			h1 {
+				font-weight: bold;
+			}
+		}
+	}
 
-.subscribe-overlay-content {
+	.close-button {
+		font-size: 5rem;
+	}
 
-}
+	.form-group {
+		margin-top: 1.75rem;
+		display: inline-block;
+	}
 
-.subscribe-overlay-logo {
+	form {
+		input {
+			display: inline-block;
 
-}
+			padding: 1.438rem; // matches the 48px of the button (defined below)
+			border-radius: 0.35rem;
+			min-width: 20rem;
+			margin: 0;
+		}
 
-.subscribe-overlay-title {
-
-}
-
-.subscribe-overlay-description {
-
+		button {
+			display: inline-block;
+			padding: 1rem;
+			background-color: $color_primary;
+			color: $color_text_alt;
+			border-radius: 0.35rem;
+			margin-left: 0.5rem;
+		}
+	}
 }
