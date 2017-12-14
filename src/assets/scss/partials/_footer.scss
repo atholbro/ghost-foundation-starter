@@ -1,11 +1,17 @@
+@import "../common";
+
 .site-footer {
 
 }
 
 .site-footer-content {
+	@include clearfix;
 
+	section {
+		float: left;
+	}
 }
 
 .site-footer-nav {
-
+	float: right;
 }
