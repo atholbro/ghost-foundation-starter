@@ -1,9 +1,14 @@
+@import "color";
+
 .site-header {
 
 }
 
 .site-header-content {
-
+	color: $color_text_alt;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-align: center;
 }
 
 .site-title {
