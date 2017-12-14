@@ -33,12 +33,9 @@ body > header {
 	padding-right: $content-padding;
 }
 
-.site-description {
-
-}
-
-.site-main {
-
+.post-feed {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .post-feed, .read-next {

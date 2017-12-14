@@ -11,6 +11,12 @@ $profile_img_size: 3.5rem;
 }
 
 .post-card {
+	flex-basis: 25%;
+
+	display: flex; // also use flexbox for the post-card div, so we can grow the contents to full size
+	flex-direction: column;
+
+	margin: 0.85rem;
 	width: $post_card_width;
 
 	.post-card-image {
@@ -19,15 +25,23 @@ $profile_img_size: 3.5rem;
 	}
 
 	.post-card-content {
+		flex-grow: 1;
 		padding: 1rem;
+
+		display: flex; // the content is also a flexbox, so we can grow the <section> tag (which contains the post excerpt) to full size.
+		flex-direction: column;
 
 		.post-card-tags {
 			@include label;
 			padding: 0;
 		}
 
+		section {
+			flex-grow: 1;
+		}
+
 		footer {
-			margin-top: 1rem;
+			margin-top: 0.75rem;
 		}
 
 		.author-profile-image {
