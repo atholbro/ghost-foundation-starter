@@ -3,13 +3,11 @@
 
 
 .post {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+
 }
 
 .post-card {
-	// Using flexbox to align image to the left of the post text.
-	display: flex;
+
 }
 
 .post-card-image-link {
@@ -17,18 +15,11 @@
 }
 
 .post-card-image {
-	// Give the image a fixed size, as otherwise no images will render as their container would be height: 0, width: 0.
-	height: $post_img_size;
-	width: $post_img_size;
 
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .post-card-content {
-	// Using flexbox to align image to the left of the post text.
-	flex-grow: 1;
-	margin-left: 1rem;
+
 }
 
 .post-card-content-link {
@@ -36,10 +27,7 @@
 }
 
 .post-card-header {
-	h2 {
-		// Remove the top margin of the post title, so that it aligns with the top of the container & post image.
-		margin-top: 0;
-	}
+
 }
 
 .post-card-tags {

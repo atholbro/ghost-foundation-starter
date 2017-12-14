@@ -1,8 +1,7 @@
 @import "../color";
 
 .author-profile-image {
-	background-color: $color_header_bg;
-	border-radius: 50%;
+
 }
 
 
@@ -12,26 +11,19 @@
 }
 
 .author-meta {
-	span {
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
 
-	span:last-of-type {
-		margin-right: 0;
-	}
 }
 
 .author-location {
-	display: inline-block;
+
 }
 
 .author-stats {
-	display: inline-block;
+
 }
 
 .author-card-name {
-	margin: 0;
+
 }
 
 .author-card-button {
@@ -39,7 +31,5 @@
 }
 
 .author-card-content {
-	p {
-		margin: 0.25rem 0 0;
-	}
+
 }

@@ -1,9 +1,1 @@
 $post_img_size: 10rem;
-
-@mixin clearfix {
-	&:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-}

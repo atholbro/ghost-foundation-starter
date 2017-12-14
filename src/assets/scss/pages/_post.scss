@@ -21,13 +21,7 @@
 }
 
 .post-full-image {
-	background-repeat: no-repeat;
-	background-size: cover;
 
-	height: $post_img_size;
-	width: $post_img_size;
-
-	margin: 0;
 }
 
 .post-full-content {
@@ -35,20 +29,15 @@
 }
 
 .post-full-footer {
-	@include clearfix;
 
-	.author-card {
-		float: left;
-	}
 }
 
 .post-full-footer-right {
-	float: right;
+
 }
 
 .read-next {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+
 }
 
 .read-next-feed {
