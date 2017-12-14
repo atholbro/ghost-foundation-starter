@@ -1,0 +1,57 @@
+@import "common_vars";
+@import "color";
+@import "header";
+@import "social";
+@import "error";
+@import "partials/_partials.scss";
+@import "pages/_pages.scss";
+
+html {
+	font-size: 16px; // reset font size
+	color: $color_text;
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: $color_accent;
+}
+
+a:hover {
+	color: $color_link_hover;
+}
+
+.outer {
+
+}
+
+.inner {
+
+}
+
+.copyright {
+
+}
+
+.site-wrapper {
+	background-color: azure;
+}
+
+.site-title {
+
+}
+
+.site-description {
+
+}
+
+.site-main {
+
+}
+
+.post-feed {
+
+}
+
+.date-divider {
+
+}

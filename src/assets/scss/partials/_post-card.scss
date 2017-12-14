@@ -1,0 +1,60 @@
+@import "../color";
+@import "../common_vars";
+
+// Reset post text color back to our proper text color, as the entire post is contained within an anchor tag.
+.post {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	a, a:visited {
+		color: $color_text;
+	}
+}
+
+.post-card {
+	display: flex;
+}
+
+.post-card-image-link {
+
+}
+
+.post-card-image {
+	height: $post_img_size;
+	width: $post_img_size;
+}
+
+.post-card-content {
+	flex-grow: 1;
+	margin-left: 1rem;
+}
+
+.post-card-content-link {
+
+}
+
+.post-card-header {
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.post-card-tags {
+
+}
+
+.post-card-title {
+
+}
+
+.post-card-excerpt {
+
+}
+
+.post-card-meta {
+
+}
+
+.post-card-author {
+
+}
