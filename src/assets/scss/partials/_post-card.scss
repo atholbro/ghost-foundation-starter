@@ -1,51 +1,42 @@
 @import "../color";
 @import "../common";
+@import "../pages/author";
 
+$post_card_width: 22rem;
+$post_card_img_height: $post_card_width / 1.6180339887499; // golden ratio
+$profile_img_size: 3.5rem;
 
 .post {
 
 }
 
 .post-card {
+	width: $post_card_width;
 
-}
+	.post-card-image {
+		@include bg-cover;
+		height: $post_card_img_height;
+	}
 
-.post-card-image-link {
+	.post-card-content {
+		padding: 1rem;
 
-}
+		.post-card-tags {
+			@include label;
+			padding: 0;
+		}
 
-.post-card-image {
+		footer {
+			margin-top: 1rem;
+		}
 
-}
+		.author-profile-image {
+			@include author-profile-image($profile_img_size);
+		}
 
-.post-card-content {
-
-}
-
-.post-card-content-link {
-
-}
-
-.post-card-header {
-
-}
-
-.post-card-tags {
-
-}
-
-.post-card-title {
-
-}
-
-.post-card-excerpt {
-
-}
-
-.post-card-meta {
-
-}
-
-.post-card-author {
+		.author-name {
+			font-weight: bold;
+		}
+	}
 
 }
