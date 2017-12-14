@@ -5,6 +5,9 @@
   "author": "Andrew Holbrook",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.9.0",
@@ -13,9 +16,14 @@
     "gulp-sass": "^3.1.0",
     "gulp-zip": "^4.0.0",
     "rimraf": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-stream": "^4.0.0",
     "yargs": "^10.0.3"
   },
   "dependencies": {
-    "gulp-debug": "^3.1.0"
+    "babel-polyfill": "^6.26.0",
+    "foundation-sites": "^6.4.4-rc1",
+    "gulp-debug": "^3.1.0",
+    "jquery": "^3.2.1"
   }
 }
