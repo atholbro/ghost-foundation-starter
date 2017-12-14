@@ -1,1 +1,13 @@
 $post_img_size: 10rem;
+
+@mixin bg-contain {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+@mixin bg-cover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
