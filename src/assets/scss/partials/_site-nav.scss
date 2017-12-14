@@ -2,23 +2,33 @@
 @import "../common";
 
 .site-nav {
+	background-color: black;
 	color: $color_text_alt;
 
 	@include clearfix;
+
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .site-nav-left {
 	float: left;
 
 	ul {
+		display: inline-block;
+
 		margin: 1rem;
 		padding: 0;
 		list-style-type: none;
 	}
+
+	ul:first-of-type {
+		margin-left: 0;
+	}
 }
 
 .site-nav-logo {
-
+	margin: 1rem 1rem 1rem 0;
 }
 
 .site-nav-right {
