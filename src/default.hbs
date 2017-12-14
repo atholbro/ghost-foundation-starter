@@ -16,6 +16,10 @@
 
 	</head>
 	<body class="{{body_class}}">
+		<header>
+			{{> "site-nav"}}
+			{{{block "header"}}}
+		</header>
 
 		<div class="site-wrapper">
 
@@ -25,12 +29,12 @@
 			{{> "footer" }}
 		</div>
 
-
 		{{> "subscribe-modal" }}
 
 		{{#if pagination.pages}}
 
 		{{/if}}
+
 
 		<script src="{{asset "js/main.js"}}" defer></script>
 		{{!-- The #block helper will pull in data from the #contentFor other template files. --}}

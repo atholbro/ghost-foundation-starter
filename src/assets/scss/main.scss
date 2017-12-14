@@ -10,8 +10,10 @@
 html {
 	font-size: 16px; // reset font size
 	color: $color_text;
+}
 
-	margin: 2rem;
+body > header {
+	margin-bottom: 2rem; // margin after main header/masthead
 }
 
 .outer {
@@ -27,11 +29,8 @@ html {
 }
 
 .site-wrapper {
-
-}
-
-.site-title {
-
+	padding-left: $content-padding;
+	padding-right: $content-padding;
 }
 
 .site-description {

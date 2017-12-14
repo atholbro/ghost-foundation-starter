@@ -2,21 +2,31 @@
 @import "../common";
 
 .site-nav {
+	position: fixed;
+	top: 0;
+	background-color: $color_nav_bg;
+	height: $nav_height;
+	line-height: $nav_height;
+	opacity: 0.9;
+	width: 100%;
+	padding-left: $content-padding;
+	padding-right: $content-padding;
 
-}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		line-height: $nav_height;
+	}
 
-.site-nav-left {
+	.site-nav-logo {
 
-}
+	}
 
-.site-nav-logo {
+	.left {
 
-}
+	}
 
-.site-nav-right {
+	.right {
 
-}
-
-.site-nav-center {
-
+	}
 }

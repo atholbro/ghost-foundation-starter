@@ -1,11 +1,13 @@
 @import "color";
+@import "common";
 
 .site-header {
+	padding-top: 3rem + $nav_height;
+	padding-bottom: 3rem;
 
-}
-
-.site-header-content {
-
+	@include bg-cover;
+	text-align: center;
+	color: $color_text_alt;
 }
 
 .site-title {
