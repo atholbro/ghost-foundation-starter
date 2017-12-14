@@ -1,17 +1,19 @@
 @import "../color";
-@import "../common_vars";
+@import "../common";
 
-// Reset post text color back to our proper text color, as the entire post is contained within an anchor tag.
+
 .post {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 
+	// Reset post text color back to our proper text color, as the entire post is contained within an anchor tag.
 	a, a:visited {
 		color: $color_text;
 	}
 }
 
 .post-card {
+	// Using flexbox to align image to the left of the post text.
 	display: flex;
 }
 
@@ -20,11 +22,13 @@
 }
 
 .post-card-image {
+	// Give the image a fixed size, as otherwise no images will render as their container would be height: 0, width: 0.
 	height: $post_img_size;
 	width: $post_img_size;
 }
 
 .post-card-content {
+	// Using flexbox to align image to the left of the post text.
 	flex-grow: 1;
 	margin-left: 1rem;
 }
@@ -35,6 +39,7 @@
 
 .post-card-header {
 	h2 {
+		// Remove the top margin of the post title, so that it aligns with the top of the container & post image.
 		margin-top: 0;
 	}
 }
