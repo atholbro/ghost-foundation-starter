@@ -20,6 +20,9 @@
 	// Give the image a fixed size, as otherwise no images will render as their container would be height: 0, width: 0.
 	height: $post_img_size;
 	width: $post_img_size;
+
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .post-card-content {
