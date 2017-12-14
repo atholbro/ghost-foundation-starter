@@ -1,13 +1,17 @@
 @import "color";
 
 .site-header {
-
+	// Background color is used if no image is set in the admin panel.
+	background: $color_header_bg no-repeat 0 0;
+	background-size: cover;
 }
 
 .site-header-content {
 	color: $color_text_alt;
+
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+
 	text-align: center;
 }
 
