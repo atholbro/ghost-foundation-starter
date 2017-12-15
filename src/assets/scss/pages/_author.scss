@@ -16,25 +16,11 @@
 }
 
 .author-meta {
+	& > div {
+		display: inline-block;
 
-}
-
-.author-location {
-
-}
-
-.author-stats {
-
-}
-
-.author-card-name {
-
-}
-
-.author-card-button {
-
-}
-
-.author-card-content {
-
+		.bull {
+			margin: 0 0.35rem;
+		}
+	}
 }
