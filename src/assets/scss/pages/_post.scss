@@ -1,69 +1,60 @@
-@import "../common";
+@import "../partials/post-card";
+
+.post-header {
+	min-height: 40rem;
+
+	// have the post content overlap the header via a negative margin
+	margin: -15vh 0;
+	background-position-y: 15vh; // push the background down again
+}
 
 .post-full {
+	background-color: $body-background;
+	border-radius: 0.5rem;
+	padding: 2rem;
 
-}
-
-.post-full-header {
-
-}
-
-.post-full-meta {
-
-}
-
-.post-full-meta-date {
-
-}
-
-.post-full-title {
-
-}
-
-.post-full-image {
-
-}
-
-.post-full-content {
-
-}
-
-.post-full-footer {
-
-}
-
-.post-full-footer-right {
-
-}
-
-.read-next {
-
-}
-
-.read-next-feed {
-
+	footer {
+		margin-top: 3rem;
+		@include author-footer;
+	}
 }
 
 .read-next-card {
+	@include post-card-base;
+	@include bg_cover;
 
-}
+	color: $color_text_alt;
+	align-items: center;
+	text-align: center;
 
-.read-next-card-header-title {
+	@include anchor-reset($color_text_alt);
 
-}
+	header {
+		margin-top: 2rem;
 
-.read-next-card-header-sitetitle {
+		h3 {
+			font-weight: 300;
+		}
+	}
 
-}
+	ul {
+		margin: 0;
+		list-style-type: none;
+		flex-grow: 1;
 
-.read-next-divider {
+		a {
+			padding-top: 0.8rem;
+			padding-bottom: 1.2rem;
+			border-bottom: 1px solid $light-gray;
+		}
+	}
 
-}
+	.read-next-divider {
+		font-size: 3rem;
+	}
 
-.read-next-card-content {
-
-}
-
-.read-next-card-footer {
+	footer {
+		margin-bottom: 1.5rem;
+	}
 
 }
