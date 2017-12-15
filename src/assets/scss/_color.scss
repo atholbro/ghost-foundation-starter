@@ -1,6 +1,9 @@
 @import "settings";
 
 $color_nav_bg: #000000;
-$color_text: #444444; // base text color
-$color_text_alt: #F7F7F7; // color for text on dark backgrounds
+$color_text: $black; // base text color
+$color_text_alt: $white; // color for text on dark backgrounds
 $color_primary: map_get($foundation-palette, primary);
+$color_bg_alt: #f8f8f8;
+
+$color_header_bg: #151515;

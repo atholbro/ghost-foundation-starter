@@ -1,10 +1,10 @@
-@import "color";
 @import "common";
 
 .site-header {
 	padding-top: 3rem + $nav_height;
 	padding-bottom: 3rem;
 
+	background-color: $color_header_bg;
 	@include bg-cover;
 	text-align: center;
 	color: $color_text_alt;
