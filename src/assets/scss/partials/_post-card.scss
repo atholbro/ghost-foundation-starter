@@ -2,7 +2,7 @@
 @import "../common";
 @import "../pages/author";
 
-$post_card_width: 22rem;
+$post_card_width: 19rem;
 $post_card_img_height: $post_card_width / 1.6180339887499; // golden ratio
 $profile_img_size: 3.5rem;
 
@@ -17,7 +17,7 @@ $profile_img_size: 3.5rem;
 	flex-direction: column;
 
 	margin: 0.85rem;
-	width: $post_card_width;
+	min-width: $post_card_width;
 
 	.post-card-image {
 		@include bg-cover;
@@ -53,4 +53,12 @@ $profile_img_size: 3.5rem;
 		}
 	}
 
+	@media screen and (min-width: 40em) and (max-width: 63.9375em) { /* medium */
+		flex-basis: 35%;
+	}
+
+	@media screen and (max-width: 39.9375em) { /* small */
+		flex-basis: 100%;
+		margin: 0 0 0.85rem;
+	}
 }
