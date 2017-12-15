@@ -1,6 +1,7 @@
 $nav_height: 4rem;
 $content-padding: 5rem;
 $site_max_width: 80rem;
+$header_max_content_width: 60rem;
 
 @mixin bg-contain {
 	background-repeat: no-repeat;

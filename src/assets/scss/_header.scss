@@ -8,8 +8,10 @@
 	@include bg-cover;
 	text-align: center;
 	color: $color_text_alt;
-}
 
-.site-title {
-
+	& > div:first-of-type {
+		max-width: $header_max_content_width;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
