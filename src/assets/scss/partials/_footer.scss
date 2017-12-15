@@ -3,13 +3,11 @@
 
 .site-footer {
 	background-color: $color_nav_bg;
-	padding: 0.75rem $content-padding;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	@include content-padding;
 
-	.float-left {
-
-	}
-
-	.float-right {
-
+	& > div:first-of-type {
+		@include content-container;
 	}
 }

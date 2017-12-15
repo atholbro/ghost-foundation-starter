@@ -4,29 +4,26 @@
 .site-nav {
 	position: fixed;
 	top: 0;
-	background-color: $color_nav_bg;
 	height: $nav_height;
-	line-height: $nav_height;
-	opacity: 0.9;
 	width: 100%;
-	padding-left: $content-padding;
-	padding-right: $content-padding;
+	line-height: $nav_height;
 
-	ul {
-		list-style-type: none;
-		margin: 0;
-		line-height: $nav_height;
-	}
+	background-color: $color_nav_bg;
+	opacity: 0.9;
 
-	.site-nav-logo {
+	@include content-padding;
 
-	}
+	& > div:first-of-type {
+		@include content-container;
 
-	.left {
+		ul {
+			list-style-type: none;
+			margin: 0;
+			line-height: $nav_height;
+		}
 
-	}
+		.site-nav-logo {
 
-	.right {
-
+		}
 	}
 }

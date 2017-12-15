@@ -29,8 +29,8 @@ body > header {
 }
 
 .site-wrapper {
-	padding-left: $content-padding;
-	padding-right: $content-padding;
+	@include content-padding;
+	@include content-container;
 }
 
 .post-feed {
