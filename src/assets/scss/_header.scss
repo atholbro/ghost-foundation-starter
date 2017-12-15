@@ -1,8 +1,8 @@
 @import "common";
 
 .site-header {
-	padding-top: 3rem + $nav_height;
-	padding-bottom: 3rem;
+	padding-top: 5rem + $nav_height;
+	padding-bottom: 5rem;
 
 	background-color: $color_header_bg;
 	@include bg-cover;
