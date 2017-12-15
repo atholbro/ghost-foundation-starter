@@ -1,13 +1,15 @@
+@import "../color";
 @import "../common";
 
 .site-footer {
+	background-color: $color_nav_bg;
+	padding: 0.75rem $content-padding;
 
-}
+	.float-left {
 
-.site-footer-content {
+	}
 
-}
+	.float-right {
 
-.site-footer-nav {
-
+	}
 }
