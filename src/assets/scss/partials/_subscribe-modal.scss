@@ -1,4 +1,5 @@
 @import "../common";
+@import "subscribe";
 
 #subscribe {
 	background-color: rgba(0, 0, 0, 0.9);
@@ -27,26 +28,7 @@
 
 	.form-group {
 		margin-top: 1.75rem;
-		display: inline-block;
 	}
 
-	form {
-		input {
-			display: inline-block;
-
-			padding: 1.438rem; // matches the 48px of the button (defined below)
-			border-radius: 0.35rem;
-			min-width: 20rem;
-			margin: 0;
-		}
-
-		button {
-			display: inline-block;
-			padding: 1rem;
-			background-color: $color_primary;
-			color: $color_text_alt;
-			border-radius: 0.35rem;
-			margin-left: 0.5rem;
-		}
-	}
+	@include subscribe-form;
 }
