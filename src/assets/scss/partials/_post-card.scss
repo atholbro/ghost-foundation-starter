@@ -8,10 +8,9 @@ $post_card_img_height: $post_card_min_width / 1.6180339887499; // golden ratio
 
 	display: flex; // also use flexbox for the post-card div, so we can grow the contents to full size
 	flex-direction: column;
-	flex-basis: 25%;
+	flex: 1 1 $post_card_min_width;
 
 	margin: $post_card_margin;
-	min-width: $post_card_min_width;
 
 	@media screen and (min-width: 40em) and (max-width: 63.9375em) { /* medium */
 		flex-basis: 35%;
