@@ -3,7 +3,7 @@
 .site-nav {
 	position: fixed;
 	top: 0;
-	height: $nav_height;
+	min-height: $nav_height;
 	width: 100%;
 	line-height: $nav_height;
 
@@ -31,5 +31,10 @@
 			display: inline-block;
 			margin-left: 1rem;
 		}
+	}
+
+	@media screen and (max-width: 39.9375em) { /* small */
+		.float-left { float: none !important; }
+		.float-right { display: none; }
 	}
 }

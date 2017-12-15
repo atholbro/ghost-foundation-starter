@@ -10,4 +10,18 @@
 	& > div:first-of-type {
 		@include content-container;
 	}
+
+	@media screen and (max-width: 39.9375em) { /* small */
+		.float-left {
+			float: none !important;
+		}
+
+		.float-right {
+			float: none !important;
+
+			a {
+				display: block;
+			}
+		}
+	}
 }
