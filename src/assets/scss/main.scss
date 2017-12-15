@@ -32,16 +32,13 @@ body > header {
 	@include content-container;
 }
 
-.post-feed {
+.post-feed, .read-next-feed {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.post-feed, .read-next {
-	// Reset post text color back to our proper text color, as the entire post is contained within an anchor tag.
-	a, a:visited {
-		color: $color_text;
-	}
+.read-next-feed {
+	margin-bottom: 1rem;
 }
 
 .date-divider {
