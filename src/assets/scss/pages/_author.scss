@@ -5,14 +5,20 @@
 	border-radius: 50%;
 }
 
+@mixin author-footer {
+	.author-profile-image {
+		@include author-profile-image($profile_img_size);
+	}
+
+	.author-name {
+		font-weight: bold;
+	}
+}
+
 .author-profile-image {
 	height: 3.5rem;
 	border-radius: 50%;
 	margin-right: 0.5rem;
-}
-
-.author-bio {
-
 }
 
 .author-meta {

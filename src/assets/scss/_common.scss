@@ -2,6 +2,11 @@ $nav_height: 4rem;
 $content-padding: 5rem;
 $site_max_width: 80rem;
 $header_max_content_width: 60rem;
+$profile_img_size: 3.5rem;
+
+$post_card_min_width: 19rem;
+$post_card_margin: 0.85rem;
+$post_card_padding: 1rem;
 
 @mixin bg-contain {
 	background-repeat: no-repeat;
@@ -35,6 +40,10 @@ $header_max_content_width: 60rem;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: $site_max_width;
+}
 
-
+@mixin anchor-reset($color) {
+	a, a:visited {
+		color: $color;
+	}
 }
