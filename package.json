@@ -1,7 +1,7 @@
 {
-  "name": "ghost-starter",
+  "name": "ghost-foundation-starter",
   "version": "0.0.1",
-  "description": "A base to build ghost themes.",
+  "description": "A base to build ghost themes, based on Foundation 6.",
   "author": "Andrew Holbrook",
   "license": "MIT",
   "devDependencies": {
