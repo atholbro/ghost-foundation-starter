@@ -13,11 +13,10 @@ $post_card_img_height: $post_card_min_width / 1.6180339887499; // golden ratio
 	margin: $post_card_margin;
 
 	@media screen and (min-width: 40em) and (max-width: 63.9375em) { /* medium */
-		flex-basis: 35%;
+		flex-basis: $post_card_min_width * 0.9; // Allow slightly smaller tiles on tablets
 	}
 
 	@media screen and (max-width: 39.9375em) { /* small */
-		flex-basis: 100%;
 		margin: 0 0 $post_card_padding;
 	}
 }
