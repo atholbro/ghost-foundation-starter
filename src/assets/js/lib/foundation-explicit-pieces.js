@@ -19,17 +19,17 @@ import { Motion/*, Move*/ } from 'foundation-sites/js/foundation.util.motion';
 //import { Equalizer } from 'foundation-sites/js/foundation.equalizer';
 //import { Interchange } from 'foundation-sites/js/foundation.interchange';
 //import { Magellan } from 'foundation-sites/js/foundation.magellan';
-import { OffCanvas } from 'foundation-sites/js/foundation.offcanvas';
+//import { OffCanvas } from 'foundation-sites/js/foundation.offcanvas';
 //import { Orbit } from 'foundation-sites/js/foundation.orbit';
 //import { ResponsiveMenu } from 'foundation-sites/js/foundation.responsiveMenu';
-import { ResponsiveToggle } from 'foundation-sites/js/foundation.responsiveToggle';
+//import { ResponsiveToggle } from 'foundation-sites/js/foundation.responsiveToggle';
 import { Reveal } from 'foundation-sites/js/foundation.reveal';
 //import { Slider } from 'foundation-sites/js/foundation.slider';
 //import { SmoothScroll } from 'foundation-sites/js/foundation.smoothScroll';
 //import { Sticky } from 'foundation-sites/js/foundation.sticky';
 //import { Tabs } from 'foundation-sites/js/foundation.tabs';
 //import { Toggler } from 'foundation-sites/js/foundation.toggler';
-import { Tooltip } from 'foundation-sites/js/foundation.tooltip';
+//import { Tooltip } from 'foundation-sites/js/foundation.tooltip';
 //import { ResponsiveAccordionTabs } from 'foundation-sites/js/foundation.responsiveAccordionTabs';
 
 
@@ -38,18 +38,18 @@ Foundation.addToJquery($);
 // Add Foundation Utils to Foundation global namespace for backwards
 // compatibility.
 
-//Foundation.rtl = rtl;
-//Foundation.GetYoDigits = GetYoDigits;
-//Foundation.transitionend = transitionend;
+// Foundation.rtl = rtl;
+// Foundation.GetYoDigits = GetYoDigits;
+// Foundation.transitionend = transitionend;
 
-//Foundation.Box = Box;
-//Foundation.onImagesLoaded = onImagesLoaded;
+// Foundation.Box = Box;
+// Foundation.onImagesLoaded = onImagesLoaded;
 Foundation.Keyboard = Keyboard;
 Foundation.MediaQuery = MediaQuery;
 Foundation.Motion = Motion;
-//Foundation.Move = Move;
-//Foundation.Nest = Nest;
-//Foundation.Timer = Timer;
+// Foundation.Move = Move;
+// Foundation.Nest = Nest;
+// Foundation.Timer = Timer;
 
 // Touch and Triggers previously were almost purely sede effect driven,
 // so no // need to add it to Foundation, just init them.
@@ -76,13 +76,13 @@ Foundation.Motion = Motion;
 //
 // Foundation.plugin(Magellan, 'Magellan');
 //
-Foundation.plugin(OffCanvas, 'OffCanvas');
+// Foundation.plugin(OffCanvas, 'OffCanvas');
 //
 // Foundation.plugin(Orbit, 'Orbit');
 
-//Foundation.plugin(ResponsiveMenu, 'ResponsiveMenu');
+// Foundation.plugin(ResponsiveMenu, 'ResponsiveMenu');
 
-Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
+// Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
 
 Foundation.plugin(Reveal, 'Reveal');
 //
@@ -90,13 +90,13 @@ Foundation.plugin(Reveal, 'Reveal');
 //
 // Foundation.plugin(SmoothScroll, 'SmoothScroll');
 
-//Foundation.plugin(Sticky, 'Sticky');
+// Foundation.plugin(Sticky, 'Sticky');
 
-//Foundation.plugin(Tabs, 'Tabs');
+// Foundation.plugin(Tabs, 'Tabs');
 
 // Foundation.plugin(Toggler, 'Toggler');
 //
-Foundation.plugin(Tooltip, 'Tooltip');
+// Foundation.plugin(Tooltip, 'Tooltip');
 //
 // Foundation.plugin(ResponsiveAccordionTabs, 'ResponsiveAccordionTabs');
 
